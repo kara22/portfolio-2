@@ -1,0 +1,29 @@
+<div class="jumbotron-8">
+  <div class="container">
+    <h1>You can contact me there. Please fill the form </h1>
+  <%= form_for (@contact) do |f| %>
+<div class="field">
+  <%= f.label :name %> <br>
+  <%= f.text_field :name, required: true %>
+
+  <br>
+
+  <%= f.label :email %> <br>
+  <%= f.email_field :email, required: true %>
+
+  <br>
+
+  <%= f.label :message %> <br>
+  <%= f.text_area :message, as: :text %>
+
+  <div class="hidden">
+    <%= f.label :nickname %> <br>
+    <%= f.text_field :nickname, hint: "leave this field blank" %>
+  </div>
+   <br>
+    <%= f.submit "Send message", class: "button" %>
+
+  <%end%>
+
+   </div>
+ </div>

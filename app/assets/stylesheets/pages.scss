@@ -1,0 +1,449 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+.header
+{
+  height:0px;
+
+     #simple-menu {
+      font-size:30px;
+      margin-top:20px;
+      margin-left:20px;
+      text-decoration:none;
+      color:#1c1c1c;
+      opacity:0.7;
+      position:fixed;
+      cursor:pointer;
+      z-index:1
+   }
+
+}
+
+.jumbotron
+ {
+
+  background:url("http://i.imgur.com/y3pzAgw.jpg")no-repeat center center;
+  background-size:cover;
+  height:700px;
+  text-align: center;
+  margin-bottom:0px !important;
+  opacity: 0.7;
+
+
+    p {
+    color:white;
+    font-size:27px;
+    }
+
+      a {
+      text-decoration: none;
+      color: white;
+      opacity: 0.7;
+      font-size:45px;
+      transition: color 1s;
+      transition-duration: 1s;
+      }
+
+      a:hover {
+      text-decoration: none;
+      color: #b20000;
+      opacity: 1;
+      transition: color 1s;
+      }
+
+    h2 {
+    color:white;
+    font-size: 50px;
+    margin-top: 100px;
+    }
+
+    .col-md-3{
+    margin-left: 30px;
+    }
+
+  }
+
+  .jumbotron-2
+  {
+  height:680px;
+  background:url(http://i.imgur.com/3CjtNlY.jpg) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  margin-bottom:0px !important;
+  opacity: 0.7;
+  padding-top: 48px;
+
+    .container {
+      max-width: 100%;
+    }
+
+    h2 {
+    color:white;
+    font-size: 45px;
+    margin-top: 250px;
+    margin-left: 10px;
+    }
+
+    a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+    font-size:45px;
+    transition: color 1s;
+    transition-duration: 1s;
+    }
+
+    a:hover {
+    text-decoration: none;
+    color: #b20000;
+    opacity: 1;
+    transition: color 1s;
+    }
+}
+
+.jumbotron-3 {
+  height:680px;
+  background:url(http://i.imgur.com/2RgweIm.jpg) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  margin-bottom:0px !important;
+  opacity: 0.8;
+  padding-top: 48px;
+
+    .container {
+    max-width: 100%;
+    }
+
+    h2 {
+    color:white;
+    font-size: 45px;
+    margin-top: 150px;
+    margin-left: 10px;
+    }
+ a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+    font-size:45px;
+    transition: color 1s;
+    transition-duration: 1s;
+    }
+
+    a:hover {
+    text-decoration: none;
+    color: #b20000;
+    opacity: 1;
+    transition: color 1s;
+    }
+}
+
+.jumbotron-4 {
+  height:680px;
+  background:url(http://i.imgur.com/fjHK7jY.jpg) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  margin-bottom:0px !important;
+  opacity: 0.8;
+  padding-top: 48px;
+
+
+    h2 {
+    color:white;
+    font-size: 45px;
+    margin-top: 50px;
+    }
+
+    p {
+    color: white;
+    }
+}
+
+.ui-accordion-header
+{
+  background-color: #1c1c1c;
+  border-top: 1px solid #ddd;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0;
+  outline: 0;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+
+}
+
+.ui-accordion-content
+{
+  padding: 0px 20px;
+
+}
+
+#accordion
+{
+  border-bottom: 1px solid #ddd;
+  outline: none;
+  margin-top:-50px;
+
+
+    p {
+    font-size:19px;
+    text-align:center;
+    }
+  }
+
+.supporting-1
+{
+  text-align: center;
+  height: 300px;
+  color:white;
+  background-color: #323237;
+
+    h3 {
+    margin-top: 110px;
+    }
+}
+
+.supporting-2
+{
+  text-align: center;
+  height:300px;
+  background-color: #323237;
+  color: white;
+
+    h3 {
+    margin-top: 120px;
+    }
+
+    a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+    font-size:45px;
+    transition: color 1s;
+    transition-duration: 1s;
+    }
+
+    a:hover {
+    text-decoration: none;
+    color: #b20000;
+    opacity: 1;
+    transition: color 1s;
+    }
+}
+
+
+.supporting-3
+{
+  text-align: center;
+  right: 0;
+  left: 0;
+  height:400px;
+
+    .col-md-4 img {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    h4 {
+    color: #b20000;
+    }
+}
+
+.supporting-4
+{
+  text-align: center;
+  left: 0;
+  right: 0;
+
+   .col-md-4 img {
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 20px;
+   }
+
+   .row {
+   border-bottom: 1px solid #dbdbdb;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   }
+
+     a {
+    text-decoration: none;
+    color: #323237;
+    opacity: 0.7;
+    font-size:45px;
+    transition: color 1s;
+    transition-duration: 1s;
+    }
+
+    a:hover {
+    text-decoration: none;
+    color: #b20000;
+    opacity: 1;
+    transition: color 1s;
+    }
+}
+
+
+.supporting-5 {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+
+    .col-md-4 img {
+    opacity: 0.7;
+    }
+
+    .col-md-4 img:hover {
+    opacity: 1;
+    }
+
+    .row {
+    border-bottom: 1px solid #dbdbdb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+    a {
+    text-decoration: none;
+    color: #323237;
+    opacity: 0.7;
+    font-size:45px;
+    transition: color 1s;
+    transition-duration: 1s;
+    }
+
+    a:hover {
+    text-decoration: none;
+    color: #b20000;
+    opacity: 1;
+    transition: color 1s;
+    }
+}
+
+.jumbotron-7
+
+{
+    background:url(http://i.imgur.com/fJr2Bvn.jpg)no-repeat center center;
+    background-size:cover;
+    opacity:0.8;
+    height:680px;
+    text-align:center;
+
+    h2 {
+    color:white;
+    font-size: 45px;
+    margin-top: 50px;
+    }
+
+    p {
+    color:white;
+    font-size:25px;
+    }
+}
+.footer
+{
+  background-color: #f2f2f2;
+  height: 110px;
+  text-align: center;
+  clear: both;
+
+    a {
+    padding-right: 7px;
+    text-decoration:none;
+    color:black;
+    }
+
+    a:hover {
+    color:#850001;
+    }
+
+    p {
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    color: #b20000;
+    }
+
+  #footer2 {
+    margin-top:5px;
+  }
+
+}
+
+ p a {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    opacity: 0.7;
+    font-size:20px;
+    transition: color 1s;
+    transition-duration: 1s;
+    }
+
+    p a:hover {
+    text-decoration: none;
+    color: #b20000;
+    opacity: 1;
+    transition: color 1s;
+    }
+
+.jumbotron-7
+{
+  h2 {
+    margin-top:40px;
+  }
+
+  .btn-primary {
+    margin-top:30px;
+    background-color:#850001;
+    color:white;
+    font-size:25px;
+    opacity:0.8;
+  }
+
+  .btn-primary:hover {
+    opacity:1;
+  }
+}
+.sidr {
+   background-color:#323237;
+  opacity:0.9;
+
+}
+@media screen and (max-width: 991px) {
+
+  .ui-accordion {
+
+  display: none;
+  }
+
+  .supporting-3
+  {
+    height:700px;
+
+      img {
+      width: 100px;
+      margin-top: 10px;
+      margin-right: auto;
+      margin-left: auto;
+      }
+  }
+
+  .supporting-4 {
+
+    height: auto;
+  }
+
+  .footer {
+    height:auto;
+  }
+}
+

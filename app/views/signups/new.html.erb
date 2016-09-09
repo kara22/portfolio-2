@@ -1,0 +1,17 @@
+<div class="jumbotron-6" id="haut">
+  <div class="container">
+      <h2>Sign up for more informations and advantages</h2>
+      <p>We will revert to you shortly</p>
+
+   <%= form_for (@signup) do |f| %>
+  <div class="field">
+    <%= f.label :Firstname %><br>
+    <%= f.text_field :first_name, :placeholder => "First name", :required => true %><br>
+    <%= f.label :Email %><br>
+    <%= f.email_field :email, :placeholder => "Email", :required => true %> <br>
+    <%= f.submit "Sign up", class: "btn-submit" %>
+  </div>
+<% end %>
+</div>
+</div>
+
