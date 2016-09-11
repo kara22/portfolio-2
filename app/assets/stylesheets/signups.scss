@@ -28,7 +28,8 @@
   }
 
     label {
-    color:white
+    color:white;
+      
 
     }
 
@@ -53,6 +54,19 @@
   .btn-primary:hover {
     opacity:1;
   }
-}// Place all the styles related to the Signups controller here.
+}
+
+@media screen and (max-width: 500px) {
+
+
+  .jumbotron-6 {
+     height:600px;
+
+  h2 {
+    font-size: 30px;
+  }
+}
+}
+// Place all the styles related to the Signups controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/

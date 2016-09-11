@@ -5,8 +5,7 @@
 
    <%= form_for (@signup) do |f| %>
   <div class="field">
-    <%= f.label :Firstname %><br>
-    <%= f.text_field :first_name, :placeholder => "First name", :required => true %><br>
+    <%= f.label :Firstname %><br>    <%= f.text_field :first_name, :placeholder => "First name", :required => true %><br>
     <%= f.label :Email %><br>
     <%= f.email_field :email, :placeholder => "Email", :required => true %> <br>
     <%= f.submit "Sign up", class: "btn-submit" %>

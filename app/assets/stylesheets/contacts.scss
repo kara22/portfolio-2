@@ -60,3 +60,22 @@
     }
 
 }
+
+@media screen and (max-width: 500px) {
+  .jumbotron-8
+  {
+    h1 {
+      font-size:25px;
+
+    }
+    input {
+      width:auto;
+    }
+    .text {
+      width:auto;
+    }
+    p {
+      font-size:15px;
+    }
+  }
+}
